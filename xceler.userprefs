@@ -1,0 +1,32 @@
+﻿<Properties StartupConfiguration="{C68AD545-F887-481F-9768-99357DDC954B}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="xceler/xcelerPage.xaml">
+    <Files>
+      <File FileName="xceler/xcelerPage.xaml" Line="5" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches>
+    <Watch file="../../Backup/Coronis/Coronis.Mobile.GP/Coronis.Mobile.GP/ViewModel/EditProfileViewModel.cs" line="30" offsetX="458" offsetY="435" expression="ThisGp.DisplayName" liveUpdate="False" />
+    <Watch file="../../Backup/Coronis/Coronis.Mobile.GP/Coronis.Mobile.GP/DALSQLite/AppDatabase.cs" line="39" offsetX="494" offsetY="570" expression="x" liveUpdate="False" />
+    <Watch file="../../Backup/Coronis/Coronis.Mobile.Patients/Coronis.Mobile.Patients/App.xaml.cs" line="63" offsetX="429" offsetY="930" expression="IsPt.IsOtpVerified" liveUpdate="False" />
+    <Watch file="../../Backup/Coronis/Coronis.Mobile.GP/Coronis.Mobile.GP/DALSQLite/AppDatabase.cs" line="129" offsetX="648" offsetY="2259" expression="item" liveUpdate="False" />
+    <Watch file="../../Backup/Coronis/Coronis.Mobile.GP/Coronis.Mobile.GP/Services/PatientSevices.cs" line="17" offsetX="284" offsetY="240" expression="patientList[1].PatientStatus" liveUpdate="False" />
+    <Watch file="../../Backup/Coronis/Coronis.Mobile.GP/Coronis.Mobile.GP/DALSQLite/AppDatabase.cs" line="129" offsetX="573" offsetY="2201" expression="item.Gender" liveUpdate="False" />
+    <Watch file="../../Backup/Coronis/Coronis.Mobile.GP/Coronis.Mobile.GP/WebServ/RestService.cs" line="416" offsetX="560" offsetY="6200" expression="ptStatus.PatientId" liveUpdate="False" />
+    <Watch file="../../Backup/Coronis/Coronis.Mobile.GP/Coronis.Mobile.GP/WebServ/RestService.cs" line="417" offsetX="558" offsetY="6231" expression="ptStatus.PatientFName" liveUpdate="False" />
+    <Watch file="../../Backup/Coronis/Coronis.Mobile.GP/Coronis.Mobile.GP/ViewModel/ReferalHistoryViewModel.cs" line="240" offsetX="458" offsetY="3585" expression="patient.PatientStatus" liveUpdate="False" />
+    <Watch file="../../Backup/Coronis/Coronis.Mobile.GP/Coronis.Mobile.GP/ViewModel/ReferalHistoryViewModel.cs" line="240" offsetX="544" offsetY="3630" expression="patient.PatientId" liveUpdate="False" />
+    <Watch file="../../Backup/Coronis/Coronis.Mobile.Patients/Coronis.Mobile.Patients/ViewModel/UploadDocumentViewModel.cs" line="133" offsetX="819" offsetY="1980" expression="content.IEnumerator" liveUpdate="False" />
+    <Watch file="../../Backup/Users/apple/Projects/Coronis.Mobile.Marketing/Coronis.Mobile.Marketing/Views/AddReferral.xaml.cs" line="66" offsetX="430" offsetY="907" expression="CUser_Object.State" liveUpdate="False" />
+    <Watch file="../../Backup/Coronis/Coronis.Mobile.GP/Coronis.Mobile.GP/DALSQLite/AppDatabase.cs" line="136" offsetX="501" offsetY="2025" expression="item.PatientStatus" liveUpdate="False" />
+    <Watch file="../../Backup/Coronis/Coronis.Mobile.Marketing/Coronis.Mobile.Marketing/ViewModel/InsightsViewModel.cs" line="155" offsetX="725" offsetY="2310" expression="Details.Location" liveUpdate="False" />
+    <Watch file="../../Backup/Coronis/Coronis.Mobile.Marketing/Coronis.Mobile.Marketing/WebServ/RestService.cs" line="466" offsetX="552" offsetY="6975" expression="uri.AbsoluteUri" liveUpdate="False" />
+  </MonoDevelop.Ide.DebuggingService.PinnedWatches>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.xceler.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.55BE1560-65B5-44D8-BA9C-DD366C937F68">
+    <MonoDevelop.MacDev.AppleDevelopmentTeam />
+  </MonoDevelop.Ide.ItemProperties.xceler.iOS>
+</Properties>
