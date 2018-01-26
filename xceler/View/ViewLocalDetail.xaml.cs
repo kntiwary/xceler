@@ -14,6 +14,7 @@ namespace xceler.View
         {
             InitializeComponent();
             BindingContext = new ViewLocalDetailVeiwModel();
+            NavigationPage.SetHasNavigationBar(this,false);
         }
     }
 }

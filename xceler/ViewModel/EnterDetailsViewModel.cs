@@ -35,9 +35,10 @@ namespace xceler.ViewModel
 
         }
 
-        private async Task OnTappedUser(object obj)
+        public async Task<User> OnTappedUser(object obj)
         {
             await App.database.InsertUserDetails(UserDetails);
+            return UserDetails;
         }
 
         //private void OnTappedUser(object obj)

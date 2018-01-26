@@ -42,6 +42,10 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
+    <EmbeddedResource Include="View\MainP.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App.xaml.cs">
@@ -72,6 +76,10 @@
     <Compile Include="ViewModel\ViewLocalDetailVeiwModel.cs" />
     <Compile Include="DALSQLite\AppDatabase.cs" />
     <Compile Include="DALSQLite\ISQLite.cs" />
+    <Compile Include="View\MainP.xaml.cs">
+      <DependentUpon>MainP.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ViewModel\MainPageViewModel.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Xamarin.Forms.Core">

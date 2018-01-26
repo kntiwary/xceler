@@ -43,9 +43,15 @@
 
                         
                         
-                <Button TextColor="White" 
+             <!--   <Button TextColor="White" 
                          Text="Submit"  
                          Command="{Binding Submit}" CommandParameter="{Binding}"
+                         BackgroundColor="{StaticResource primary}"
+                         HorizontalOptions="FillAndExpand"/>-->
+
+                   <Button TextColor="White" 
+                         Text="Submit"  
+                         Clicked="Handle_Clicked"
                          BackgroundColor="{StaticResource primary}"
                          HorizontalOptions="FillAndExpand"/>
 

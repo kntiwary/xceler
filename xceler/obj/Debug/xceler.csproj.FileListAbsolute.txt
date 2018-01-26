@@ -27,3 +27,4 @@
 /Users/kamta/xceler/xceler/xceler/bin/Debug/SQLite-net.pdb
 /Users/kamta/xceler/xceler/xceler/bin/Debug/SQLite-net.xml
 /Users/kamta/xceler/xceler/xceler/obj/Debug/xceler.csprojResolveAssemblyReference.cache
+/Users/kamta/xceler/xceler/xceler/obj/Debug/xceler.View.MainP.xaml.g.cs
