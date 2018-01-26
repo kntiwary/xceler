@@ -52,3 +52,11 @@
 /Users/kamta/xceler/xceler/Droid/obj/Debug/res/drawable/xcelerator.png
 /Users/kamta/xceler/xceler/Droid/obj/Debug/R.cs.flag
 /Users/kamta/xceler/xceler/Droid/obj/Debug/uploadflags.txt
+/Users/kamta/xceler/xceler/Droid/bin/Debug/SQLite-net.dll
+/Users/kamta/xceler/xceler/Droid/bin/Debug/SQLitePCLRaw.batteries_green.dll
+/Users/kamta/xceler/xceler/Droid/bin/Debug/SQLitePCLRaw.batteries_v2.dll
+/Users/kamta/xceler/xceler/Droid/bin/Debug/SQLitePCLRaw.core.dll
+/Users/kamta/xceler/xceler/Droid/bin/Debug/SQLitePCLRaw.lib.e_sqlite3.dll
+/Users/kamta/xceler/xceler/Droid/bin/Debug/SQLitePCLRaw.provider.e_sqlite3.dll
+/Users/kamta/xceler/xceler/Droid/bin/Debug/SQLite-net.pdb
+/Users/kamta/xceler/xceler/Droid/bin/Debug/SQLite-net.xml

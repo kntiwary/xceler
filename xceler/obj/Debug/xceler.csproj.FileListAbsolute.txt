@@ -19,3 +19,11 @@
 /Users/kamta/xceler/xceler/xceler/bin/Debug/Xamarin.Forms.Xaml.dll.mdb
 /Users/kamta/xceler/xceler/xceler/bin/Debug/Xamarin.Forms.Xaml.xml
 /Users/kamta/xceler/xceler/xceler/bin/Debug/Newtonsoft.Json.xml
+/Users/kamta/xceler/xceler/xceler/obj/Debug/xceler.View.ViewLocalDetail.xaml.g.cs
+/Users/kamta/xceler/xceler/xceler/bin/Debug/SQLite-net.dll
+/Users/kamta/xceler/xceler/xceler/bin/Debug/SQLitePCLRaw.batteries_green.dll
+/Users/kamta/xceler/xceler/xceler/bin/Debug/SQLitePCLRaw.batteries_v2.dll
+/Users/kamta/xceler/xceler/xceler/bin/Debug/SQLitePCLRaw.core.dll
+/Users/kamta/xceler/xceler/xceler/bin/Debug/SQLite-net.pdb
+/Users/kamta/xceler/xceler/xceler/bin/Debug/SQLite-net.xml
+/Users/kamta/xceler/xceler/xceler/obj/Debug/xceler.csprojResolveAssemblyReference.cache

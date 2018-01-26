@@ -1,32 +1,36 @@
 ﻿<Properties StartupConfiguration="{32A6C849-DC07-4EB9-89DD-8CF82FF0995E}|Default" NuGet.AddPackagesDialog.IncludePrerelease="True">
-  <MonoDevelop.Ide.Workbench ActiveDocument="../../Coronis/Coronis.Mobile.Marketing/Coronis.Mobile.Marketing/Views/AddReferral.xaml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Droid/SQLite.cs">
     <Files>
-      <File FileName="xceler/Services/HamburgermenuItem.cs" Line="26" Column="50" />
+      <File FileName="xceler/Services/HamburgermenuItem.cs" Line="27" Column="24" />
       <File FileName="xceler/App.xaml" Line="8" Column="9" />
-      <File FileName="xceler/App.xaml.cs" Line="16" Column="65" />
-      <File FileName="xceler/View/EnterDetails.xaml" Line="30" Column="17" />
-      <File FileName="xceler/View/EnterDetails.xaml.cs" Line="17" Column="48" />
-      <File FileName="xceler/ViewModel/EnterDetailsViewModel.cs" Line="27" Column="1" />
-      <File FileName="xceler/Model/Country.cs" Line="11" Column="45" />
-      <File FileName="../../Coronis/Coronis.Mobile.Marketing/Coronis.Mobile.Marketing/Views/AddReferral.xaml" Line="1" Column="1" />
+      <File FileName="xceler/App.xaml.cs" Line="18" Column="42" />
+      <File FileName="xceler/View/EnterDetails.xaml" Line="48" Column="79" />
+      <File FileName="xceler/View/EnterDetails.xaml.cs" Line="24" Column="1" />
+      <File FileName="xceler/ViewModel/EnterDetailsViewModel.cs" Line="40" Column="19" />
+      <File FileName="xceler/View/ViewLocalDetail.xaml.cs" Line="9" Column="2" />
+      <File FileName="xceler/View/ViewLocalDetail.xaml" Line="6" Column="1" />
+      <File FileName="xceler/ViewModel/ViewLocalDetailVeiwModel.cs" Line="4" Column="42" />
+      <File FileName="xceler/View/MenuPage.xaml.cs" Line="29" Column="1" />
+      <File FileName="xceler/DALSQLite/AppDatabase.cs" Line="15" Column="70" />
+      <File FileName="Droid/SQLite.cs" Line="11" Column="85" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="xceler" expanded="True">
             <Node name="xceler" expanded="True">
+              <Node name="DALSQLite" expanded="True" />
               <Node name="Model" expanded="True" />
               <Node name="View" expanded="True">
                 <Node name="EnterDetails.xaml" expanded="True" />
+                <Node name="MenuPage.xaml" expanded="True" />
               </Node>
-              <Node name="ViewModel" expanded="True">
-                <Node name="EnterDetailsViewModel.cs" selected="True" />
-              </Node>
-              <Node name="WebServ" expanded="True" />
+              <Node name="ViewModel" expanded="True" />
               <Node name="App.xaml" expanded="True" />
-              <Node name="xcelerPage.xaml" expanded="True" />
             </Node>
-            <Node name="xceler.iOS" expanded="True" />
+            <Node name="xceler.Droid" expanded="True">
+              <Node name="SQLite.cs" selected="True" />
+            </Node>
           </Node>
         </State>
       </Pad>
@@ -36,7 +40,9 @@
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore>
       <Breakpoint file="/Users/kamta/xceler/xceler/xceler/Services/HamburgermenuItem.cs" relfile="xceler/Services/HamburgermenuItem.cs" line="12" column="1" />
-      <Breakpoint file="/Users/kamta/xceler/xceler/xceler/ViewModel/EnterDetailsViewModel.cs" relfile="xceler/ViewModel/EnterDetailsViewModel.cs" line="27" column="1" />
+      <Breakpoint file="/Users/kamta/xceler/xceler/xceler/ViewModel/EnterDetailsViewModel.cs" relfile="xceler/ViewModel/EnterDetailsViewModel.cs" line="39" column="1" />
+      <Breakpoint file="/Users/kamta/xceler/xceler/xceler/DALSQLite/AppDatabase.cs" relfile="xceler/DALSQLite/AppDatabase.cs" line="19" column="1" />
+      <Breakpoint file="/Users/kamta/xceler/xceler/Droid/SQLite.cs" relfile="Droid/SQLite.cs" line="12" column="1" />
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches>

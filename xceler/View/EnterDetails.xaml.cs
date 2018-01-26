@@ -16,5 +16,12 @@ namespace xceler.View
             NavigationPage.SetHasNavigationBar(this, false);
             BindingContext = new EnterDetailsViewModel();
         }
+
+        void Handle_DateSelectedAsync(object sender, Xamarin.Forms.DateChangedEventArgs e)
+        {
+            DateTime date = e.NewDate;
+            var vm = BindingContext as EnterDetailsViewModel;
+            vm.UpdateDob(date);
+        }
     }
 }

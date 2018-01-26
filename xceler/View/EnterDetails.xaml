@@ -14,23 +14,23 @@
                               Text="Xcelerator" 
                               TextColor="White" 
                               FontSize="40" />
-                <Entry TextColor="White" 
+                <Entry TextColor="White"  Text="{Binding UserDetails.FirstName}"
                         PlaceholderColor="{StaticResource primary}"  Placeholder="First Name" 
                         HorizontalOptions="FillAndExpand"/>
-                <Entry TextColor="White" 
+                <Entry TextColor="White" Text="{Binding UserDetails.Lastname}"
                         PlaceholderColor="{StaticResource primary}"  Placeholder="Last Name" 
                         HorizontalOptions="FillAndExpand"/>
-                <Entry TextColor="White" PlaceholderColor="{StaticResource primary}" 
+                <Entry TextColor="White"  Text="{Binding UserDetails.Email}" PlaceholderColor="{StaticResource primary}" 
                         Placeholder="Email" 
                         HorizontalOptions="FillAndExpand"/>
-                <Entry TextColor="White"  
+                <Entry TextColor="White"  Text="{Binding UserDetails.Mobile}"
                         PlaceholderColor="{StaticResource primary}"  
                         Placeholder="Mobile" 
                         HorizontalOptions="FillAndExpand"/>
                 
                 <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand">
                          <Label TextColor="{StaticResource primary}" Text="DOB" VerticalTextAlignment="Center"/>
-                         <DatePicker x:Name ="Dob"  TextColor="White" />
+                         <DatePicker x:Name ="Dob"  TextColor="White" DateSelected="Handle_DateSelectedAsync"  />
                          <Label TextColor="{StaticResource primary}" Text="M" VerticalTextAlignment="Center"/>
                          <Switch x:Name = "gender"/>
                           <Label TextColor="{StaticResource primary}" Text="F" VerticalTextAlignment="Center"/>
@@ -45,6 +45,7 @@
                         
                 <Button TextColor="White" 
                          Text="Submit"  
+                         Command="{Binding Submit}" CommandParameter="{Binding}"
                          BackgroundColor="{StaticResource primary}"
                          HorizontalOptions="FillAndExpand"/>
 

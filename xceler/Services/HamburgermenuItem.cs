@@ -24,7 +24,7 @@ namespace xceler.Services
                     new Hamburgermenu{
                         MenuName = "View Details",
                         MenuIcon = "historyMenu",
-                       // Navigation = typeof(ReferalHistoryPage)
+                        Navigation = typeof(ViewLocalDetail)
 
                     },
                     new Hamburgermenu{

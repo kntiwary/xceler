@@ -1,8 +1,12 @@
 ﻿using System;
+using SQLite;
+
 namespace xceler.Model
 {
     public class User
     {
+        [PrimaryKey][AutoIncrement]
+        public int id { get; set; }
         public string FirstName
         {
             get;
