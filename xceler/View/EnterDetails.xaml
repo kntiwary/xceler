@@ -37,7 +37,8 @@
                     
                     
                 </StackLayout>
-                <Picker x:Name = "Country" Title="Country"  TextColor="{StaticResource primary}"/>
+                <Picker x:Name = "Country" Title="Country"  TextColor="{StaticResource primary}"
+                         SelectedIndex ="{Binding CountrySelectedIndex}" ItemsSource = "{Binding CountryContent}" ItemDisplayBinding="{Binding Name}"/>
                 
 
                         

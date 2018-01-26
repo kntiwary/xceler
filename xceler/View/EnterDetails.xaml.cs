@@ -3,6 +3,7 @@ using System.Collections.Generic;
 
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
+using xceler.ViewModel;
 
 namespace xceler.View
 {
@@ -13,6 +14,7 @@ namespace xceler.View
         {
             InitializeComponent();
             NavigationPage.SetHasNavigationBar(this, false);
+            BindingContext = new EnterDetailsViewModel();
         }
     }
 }

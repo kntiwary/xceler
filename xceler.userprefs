@@ -1,35 +1,28 @@
-﻿<Properties StartupConfiguration="{32A6C849-DC07-4EB9-89DD-8CF82FF0995E}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="xceler/Services/HamburgermenuItem.cs">
+﻿<Properties StartupConfiguration="{32A6C849-DC07-4EB9-89DD-8CF82FF0995E}|Default" NuGet.AddPackagesDialog.IncludePrerelease="True">
+  <MonoDevelop.Ide.Workbench ActiveDocument="../../Coronis/Coronis.Mobile.Marketing/Coronis.Mobile.Marketing/Views/AddReferral.xaml">
     <Files>
-      <File FileName="xceler/xcelerPage.xaml" Line="11" Column="1" />
-      <File FileName="xceler/View/MenuPage.xaml" Line="45" Column="44" />
-      <File FileName="xceler/View/MenuPage.xaml.cs" Line="11" Column="5" />
-      <File FileName="../../Coronis/Coronis.Mobile.GP/Coronis.Mobile.GP/View/MenuPage.xaml.cs" Line="75" Column="14" />
-      <File FileName="../../Coronis/Coronis.Mobile.GP/Coronis.Mobile.GP/View/MenuPage.xaml" Line="19" Column="23" />
-      <File FileName="xceler/Services/HamburgermenuItem.cs" Line="30" Column="37" />
+      <File FileName="xceler/Services/HamburgermenuItem.cs" Line="26" Column="50" />
       <File FileName="xceler/App.xaml" Line="8" Column="9" />
-      <File FileName="xceler/App.xaml.cs" Line="1" Column="1" />
-      <File FileName="xceler/obj/Debug/xceler.View.MenuPage.xaml.g.cs" Line="1" Column="1" />
-      <File FileName="../../../../Library/Frameworks/Xamarin.Android.framework/Versions/8.0.2-1/lib/xbuild/Xamarin/Android/Xamarin.Android.Common.targets" Line="1600" Column="5" />
-      <File FileName="iOS/Main.cs" Line="17" Column="1" />
-      <File FileName="xceler/Model/User.cs" Line="1" Column="1" />
+      <File FileName="xceler/App.xaml.cs" Line="16" Column="65" />
       <File FileName="xceler/View/EnterDetails.xaml" Line="30" Column="17" />
-      <File FileName="xceler/View/EnterDetails.xaml.cs" Line="9" Column="15" />
-      <File FileName="xceler/xcelerPage.xaml.cs" Line="10" Column="61" />
-      <File FileName="xceler/obj/Debug/xceler.View.EnterDetails.xaml.g.cs" Line="18" Column="55" />
+      <File FileName="xceler/View/EnterDetails.xaml.cs" Line="17" Column="48" />
+      <File FileName="xceler/ViewModel/EnterDetailsViewModel.cs" Line="27" Column="1" />
+      <File FileName="xceler/Model/Country.cs" Line="11" Column="45" />
+      <File FileName="../../Coronis/Coronis.Mobile.Marketing/Coronis.Mobile.Marketing/Views/AddReferral.xaml" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="xceler" expanded="True">
             <Node name="xceler" expanded="True">
-              <Node name="Services" expanded="True">
-                <Node name="HamburgermenuItem.cs" selected="True" />
-              </Node>
+              <Node name="Model" expanded="True" />
               <Node name="View" expanded="True">
                 <Node name="EnterDetails.xaml" expanded="True" />
-                <Node name="MenuPage.xaml" expanded="True" />
               </Node>
+              <Node name="ViewModel" expanded="True">
+                <Node name="EnterDetailsViewModel.cs" selected="True" />
+              </Node>
+              <Node name="WebServ" expanded="True" />
               <Node name="App.xaml" expanded="True" />
               <Node name="xcelerPage.xaml" expanded="True" />
             </Node>
@@ -43,6 +36,7 @@
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore>
       <Breakpoint file="/Users/kamta/xceler/xceler/xceler/Services/HamburgermenuItem.cs" relfile="xceler/Services/HamburgermenuItem.cs" line="12" column="1" />
+      <Breakpoint file="/Users/kamta/xceler/xceler/xceler/ViewModel/EnterDetailsViewModel.cs" relfile="xceler/ViewModel/EnterDetailsViewModel.cs" line="27" column="1" />
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches>
@@ -64,7 +58,7 @@
   </MonoDevelop.Ide.DebuggingService.PinnedWatches>
   <MonoDevelop.Ide.ItemProperties.xceler.Droid PreferredExecutionTarget="Android.153003717d52" />
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.xceler.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.55BE1560-65B5-44D8-BA9C-DD366C937F68">
+  <MonoDevelop.Ide.ItemProperties.xceler.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.BB7105A3-7369-4837-AE8F-C2F5E8A0E104">
     <MonoDevelop.MacDev.AppleDevelopmentTeam />
   </MonoDevelop.Ide.ItemProperties.xceler.iOS>
 </Properties>

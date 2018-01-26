@@ -3,6 +3,7 @@
 /Users/kamta/xceler/xceler/Droid/bin/Debug/com.companyname.xceler.apk
 /Users/kamta/xceler/xceler/Droid/bin/Debug/com.companyname.xceler-Signed.apk
 /Users/kamta/xceler/xceler/Droid/bin/Debug/FormsViewGroup.dll
+/Users/kamta/xceler/xceler/Droid/bin/Debug/Newtonsoft.Json.dll
 /Users/kamta/xceler/xceler/Droid/bin/Debug/Xamarin.Android.Support.Animated.Vector.Drawable.dll
 /Users/kamta/xceler/xceler/Droid/bin/Debug/Xamarin.Android.Support.Annotations.dll
 /Users/kamta/xceler/xceler/Droid/bin/Debug/Xamarin.Android.Support.Compat.dll
@@ -35,6 +36,7 @@
 /Users/kamta/xceler/xceler/Droid/bin/Debug/Xamarin.Forms.Xaml.pdb
 /Users/kamta/xceler/xceler/Droid/bin/Debug/Xamarin.Forms.Xaml.dll.mdb
 /Users/kamta/xceler/xceler/Droid/bin/Debug/Xamarin.Forms.Xaml.xml
+/Users/kamta/xceler/xceler/Droid/bin/Debug/Newtonsoft.Json.xml
 /Users/kamta/xceler/xceler/Droid/obj/Debug/xceler.Droid.csprojResolveAssemblyReference.cache
 /Users/kamta/xceler/xceler/Droid/obj/Debug/xceler.Droid.csproj.CoreCompileInputs.cache
 /Users/kamta/xceler/xceler/Droid/obj/Debug/xceler.Droid.dll
@@ -47,6 +49,6 @@
 /Users/kamta/xceler/xceler/Droid/obj/Debug/res/drawable-hdpi/icon.png
 /Users/kamta/xceler/xceler/Droid/obj/Debug/res/drawable-xhdpi/icon.png
 /Users/kamta/xceler/xceler/Droid/obj/Debug/res/drawable-xxhdpi/icon.png
+/Users/kamta/xceler/xceler/Droid/obj/Debug/res/drawable/xcelerator.png
 /Users/kamta/xceler/xceler/Droid/obj/Debug/R.cs.flag
 /Users/kamta/xceler/xceler/Droid/obj/Debug/uploadflags.txt
-/Users/kamta/xceler/xceler/Droid/obj/Debug/res/drawable/xcelerator.png

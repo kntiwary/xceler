@@ -14,12 +14,7 @@ namespace xceler.Services
 
             var list = new List<Hamburgermenu>
                   {
-                    //new Hamburgermenu{
-                    //    MenuName = "Insights",
-                    //    MenuIcon = "insightMenu",
-                    //    Navigation = typeof(LandingPage)
-
-                    //},
+                   
                     new Hamburgermenu{
                         MenuName = "Fill Details",
                         MenuIcon = "referMenu",
