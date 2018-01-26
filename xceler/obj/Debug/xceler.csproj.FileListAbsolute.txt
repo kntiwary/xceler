@@ -10,9 +10,9 @@
 /Users/kamta/xceler/xceler/xceler/bin/Debug/Xamarin.Forms.Xaml.pdb
 /Users/kamta/xceler/xceler/xceler/bin/Debug/Xamarin.Forms.Xaml.dll.mdb
 /Users/kamta/xceler/xceler/xceler/bin/Debug/Xamarin.Forms.Xaml.xml
-/Users/kamta/xceler/xceler/xceler/obj/Debug/xceler.csprojResolveAssemblyReference.cache
 /Users/kamta/xceler/xceler/xceler/obj/Debug/xceler.csproj.CoreCompileInputs.cache
 /Users/kamta/xceler/xceler/xceler/obj/Debug/xceler.App.xaml.g.cs
 /Users/kamta/xceler/xceler/xceler/obj/Debug/xceler.xcelerPage.xaml.g.cs
+/Users/kamta/xceler/xceler/xceler/obj/Debug/xceler.View.MenuPage.xaml.g.cs
 /Users/kamta/xceler/xceler/xceler/obj/Debug/xceler.dll
 /Users/kamta/xceler/xceler/xceler/obj/Debug/xceler.pdb

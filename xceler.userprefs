@@ -1,12 +1,42 @@
-﻿<Properties StartupConfiguration="{C68AD545-F887-481F-9768-99357DDC954B}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="xceler/xcelerPage.xaml">
+﻿<Properties StartupConfiguration="{32A6C849-DC07-4EB9-89DD-8CF82FF0995E}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="xceler/Model/User.cs">
     <Files>
-      <File FileName="xceler/xcelerPage.xaml" Line="5" Column="1" />
+      <File FileName="xceler/xcelerPage.xaml" Line="8" Column="1" />
+      <File FileName="xceler/View/MenuPage.xaml" Line="30" Column="30" />
+      <File FileName="xceler/View/MenuPage.xaml.cs" Line="18" Column="1" />
+      <File FileName="../../Coronis/Coronis.Mobile.GP/Coronis.Mobile.GP/Services/HamburgermenuItem.cs" Line="3" Column="1" />
+      <File FileName="../../Coronis/Coronis.Mobile.GP/Coronis.Mobile.GP/View/MenuPage.xaml" Line="19" Column="23" />
+      <File FileName="../../Coronis/Coronis.Mobile.GP/Coronis.Mobile.GP/View/MenuPage.xaml.cs" Line="105" Column="8" />
+      <File FileName="xceler/Services/HamburgermenuItem.cs" Line="43" Column="25" />
+      <File FileName="xceler/App.xaml" Line="8" Column="9" />
+      <File FileName="xceler/App.xaml.cs" Line="19" Column="25" />
+      <File FileName="xceler/obj/Debug/xceler.View.MenuPage.xaml.g.cs" Line="24" Column="1" />
+      <File FileName="../../../../Library/Frameworks/Xamarin.Android.framework/Versions/8.0.2-1/lib/xbuild/Xamarin/Android/Xamarin.Android.Common.targets" Line="1600" Column="5" />
+      <File FileName="iOS/Main.cs" Line="17" Column="1" />
+      <File FileName="xceler/Model/User.cs" Line="6" Column="10" />
     </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="xceler" expanded="True">
+            <Node name="xceler" expanded="True">
+              <Node name="Model" expanded="True">
+                <Node name="User.cs" selected="True" />
+              </Node>
+              <Node name="App.xaml" expanded="True" />
+            </Node>
+            <Node name="xceler.iOS" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint file="/Users/kamta/xceler/xceler/xceler/Services/HamburgermenuItem.cs" relfile="xceler/Services/HamburgermenuItem.cs" line="11" column="1" />
+      <Breakpoint file="/Users/kamta/xceler/xceler/xceler/View/MenuPage.xaml.cs" relfile="xceler/View/MenuPage.xaml.cs" line="18" column="1" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches>
     <Watch file="../../Backup/Coronis/Coronis.Mobile.GP/Coronis.Mobile.GP/ViewModel/EditProfileViewModel.cs" line="30" offsetX="458" offsetY="435" expression="ThisGp.DisplayName" liveUpdate="False" />

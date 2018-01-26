@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MasterDetailPage xmlns="http://xamarin.com/schemas/2014/forms" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+    x:Class="xceler.View.MenuPage">
+    <MasterDetailPage.Master> 
+        <!--<local:MasterPage x:Name="masterPage" />-->
+   <ContentPage Title="Menu" 
+                 BackgroundColor="#e8e8e8">
+                    <ContentPage.Padding>
+                        <OnPlatform x:TypeArguments="Thickness">
+                          <OnPlatform.iOS>
+                            0, 20, 0, 0
+                          </OnPlatform.iOS>
+                        </OnPlatform>
+                     </ContentPage.Padding>
+      <StackLayout Orientation="Vertical">
+        <StackLayout   Orientation="Horizontal"
+                     HeightRequest="85" Padding="0,10">
+                     <Image Source = "sunrise" Aspect = "AspectFit" HorizontalOptions="CenterAndExpand" />     
+        </StackLayout>
+        <ListView x:Name="navigationDrawerList"
+                  RowHeight="60"
+                  SeparatorVisibility="None"
+                  BackgroundColor="#e8e8e8">
+                <!--  ItemSelected="OnMenuItemSelectedAsync">-->
+
+          <ListView.ItemTemplate>
+            <DataTemplate>
+              <ViewCell>
+                <StackLayout >
+                <StackLayout VerticalOptions="FillAndExpand" BackgroundColor="#e8e8e8"
+                             Margin="0,0,0,2"           
+                             Orientation="Horizontal"
+                             Padding="20,10,0,10"
+                             Spacing="20">
+
+                  <Image Source="{Binding MenuIcon}"
+                         WidthRequest="25"
+                         HeightRequest="25"
+                         VerticalOptions="Center" />
+
+                  <Label Text="{Binding MenuName}"
+                         FontSize="Small"
+                         VerticalOptions="Center"
+                         TextColor="Black"/>
+                </StackLayout></StackLayout>
+              </ViewCell>
+            </DataTemplate>
+          </ListView.ItemTemplate>
+        </ListView>
+      </StackLayout>
+    </ContentPage>
+  </MasterDetailPage.Master>
+
+  <MasterDetailPage.Detail>
+    <NavigationPage>
+
+    </NavigationPage>
+  </MasterDetailPage.Detail>
+
+    
+</MasterDetailPage>

@@ -1,14 +1,17 @@
 ﻿using Xamarin.Forms;
-
+using xceler.View;
+using Xamarin.Forms.Xaml;
 namespace xceler
 {
+    [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class App : Application
     {
         public App()
         {
             InitializeComponent();
 
-            MainPage = new xcelerPage();
+            //MainPage = new xcelerPage();
+            MainPage = new NavigationPage(new MenuPage());
         }
 
         protected override void OnStart()
