@@ -34,6 +34,10 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
+    <EmbeddedResource Include="View\EnterDetails.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App.xaml.cs">
@@ -49,6 +53,9 @@
     <Compile Include="Model\Hamburgermenu.cs" />
     <Compile Include="Services\HamburgermenuItem.cs" />
     <Compile Include="Model\User.cs" />
+    <Compile Include="View\EnterDetails.xaml.cs">
+      <DependentUpon>EnterDetails.xaml</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Xamarin.Forms.Core">

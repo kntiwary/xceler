@@ -47,11 +47,11 @@
 /Users/kamta/xceler/xceler/iOS/bin/iPhoneSimulator/Debug/zh-HK/Xamarin.Forms.Platform.iOS.resources.dll
 /Users/kamta/xceler/xceler/iOS/bin/iPhoneSimulator/Debug/zh-Hans/Xamarin.Forms.Platform.iOS.resources.dll
 /Users/kamta/xceler/xceler/iOS/bin/iPhoneSimulator/Debug/zh-Hant/Xamarin.Forms.Platform.iOS.resources.dll
-/Users/kamta/xceler/xceler/iOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.1/ibtool/_BundleResourceWithLogicalName.items
-/Users/kamta/xceler/xceler/iOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.1/actool/_PartialAppManifest.items
-/Users/kamta/xceler/xceler/iOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.1/actool/_BundleResourceWithLogicalName.items
-/Users/kamta/xceler/xceler/iOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.1/optimized/
 /Users/kamta/xceler/xceler/iOS/obj/iPhoneSimulator/Debug/xceler.iOS.csprojResolveAssemblyReference.cache
 /Users/kamta/xceler/xceler/iOS/obj/iPhoneSimulator/Debug/xceler.iOS.csproj.CoreCompileInputs.cache
 /Users/kamta/xceler/xceler/iOS/obj/iPhoneSimulator/Debug/xceler.iOS.exe
 /Users/kamta/xceler/xceler/iOS/obj/iPhoneSimulator/Debug/xceler.iOS.pdb
+/Users/kamta/xceler/xceler/iOS/obj/iPhoneSimulator/Debug/device-builds/iphone9.1-11.1/ibtool/_BundleResourceWithLogicalName.items
+/Users/kamta/xceler/xceler/iOS/obj/iPhoneSimulator/Debug/device-builds/iphone9.1-11.1/actool/_PartialAppManifest.items
+/Users/kamta/xceler/xceler/iOS/obj/iPhoneSimulator/Debug/device-builds/iphone9.1-11.1/actool/_BundleResourceWithLogicalName.items
+/Users/kamta/xceler/xceler/iOS/obj/iPhoneSimulator/Debug/device-builds/iphone9.1-11.1/optimized/

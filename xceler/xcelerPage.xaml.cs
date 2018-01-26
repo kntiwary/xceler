@@ -7,6 +7,7 @@ namespace xceler
         public xcelerPage()
         {
             InitializeComponent();
+            NavigationPage.SetHasNavigationBar(this, false);
         }
     }
 }

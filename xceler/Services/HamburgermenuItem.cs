@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Threading.Tasks;
 using xceler.Model;
+using xceler.View;
 
 namespace xceler.Services
 {
@@ -20,27 +21,21 @@ namespace xceler.Services
 
                     //},
                     new Hamburgermenu{
-                        MenuName = "Refer Patient",
+                        MenuName = "Fill Details",
                         MenuIcon = "referMenu",
-                       // Navigation = typeof(ReferPatient)
+                        Navigation = typeof(EnterDetails)
 
                     },
                     new Hamburgermenu{
-                        MenuName = "Referral History",
+                        MenuName = "View Details",
                         MenuIcon = "historyMenu",
                        // Navigation = typeof(ReferalHistoryPage)
 
                     },
                     new Hamburgermenu{
-                        MenuName = "Feed back",
+                        MenuName = "Random Json ListView",
                         MenuIcon = "viewMediaMenu",
                       //  Navigation = typeof(FeedBack)
-
-                    },
-                    new Hamburgermenu{
-                        MenuName = "Edit Profile",
-                        MenuIcon = "profileEditMenu",
-                      //  Navigation = typeof(EditProfile)
 
                     }
 

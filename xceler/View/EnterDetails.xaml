@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+    x:Class="xceler.View.EnterDetails" BackgroundColor="#2f4259">
+	<ContentPage.Resources>
+         <ResourceDictionary>
+            <Color x:Key="primary">#3ec3d5</Color>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout Padding="40" Spacing="10">
+                 <Label  HorizontalOptions="CenterAndExpand" 
+                              Text="Xcelerator" 
+                              TextColor="White" 
+                              FontSize="40" />
+                <Entry TextColor="White" 
+                        PlaceholderColor="{StaticResource primary}"  Placeholder="First Name" 
+                        HorizontalOptions="FillAndExpand"/>
+                <Entry TextColor="White" 
+                        PlaceholderColor="{StaticResource primary}"  Placeholder="Last Name" 
+                        HorizontalOptions="FillAndExpand"/>
+                <Entry TextColor="White" PlaceholderColor="{StaticResource primary}" 
+                        Placeholder="Email" 
+                        HorizontalOptions="FillAndExpand"/>
+                <Entry TextColor="White"  
+                        PlaceholderColor="{StaticResource primary}"  
+                        Placeholder="Mobile" 
+                        HorizontalOptions="FillAndExpand"/>
+                
+                <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand">
+                         <Label TextColor="{StaticResource primary}" Text="DOB" VerticalTextAlignment="Center"/>
+                         <DatePicker x:Name ="Dob"  TextColor="White" />
+                         <Label TextColor="{StaticResource primary}" Text="M" VerticalTextAlignment="Center"/>
+                         <Switch x:Name = "gender"/>
+                          <Label TextColor="{StaticResource primary}" Text="F" VerticalTextAlignment="Center"/>
+                    
+                    
+                </StackLayout>
+                <Picker x:Name = "Country" Title="Country"  TextColor="{StaticResource primary}"/>
+                
+
+                        
+                        
+                <Button TextColor="White" 
+                         Text="Submit"  
+                         BackgroundColor="{StaticResource primary}"
+                         HorizontalOptions="FillAndExpand"/>
+
+              
+             </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

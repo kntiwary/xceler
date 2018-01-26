@@ -16,18 +16,18 @@
       <StackLayout Orientation="Vertical">
         <StackLayout   Orientation="Horizontal"
                      HeightRequest="85" Padding="0,10">
-                     <Image Source = "sunrise" Aspect = "AspectFit" HorizontalOptions="CenterAndExpand" />     
+                     <Image Source = "xcelerator" Aspect = "AspectFit" MinimumWidthRequest="30" HorizontalOptions="CenterAndExpand" />     
         </StackLayout>
         <ListView x:Name="navigationDrawerList"
                   RowHeight="60"
                   SeparatorVisibility="None"
-                  BackgroundColor="#e8e8e8">
-                <!--  ItemSelected="OnMenuItemSelectedAsync">-->
+                  BackgroundColor="#e8e8e8"
+                 ItemSelected="OnMenuItemSelectedAsync">
 
           <ListView.ItemTemplate>
             <DataTemplate>
               <ViewCell>
-                <StackLayout >
+                <StackLayout BackgroundColor="#2f4259" >
                 <StackLayout VerticalOptions="FillAndExpand" BackgroundColor="#e8e8e8"
                              Margin="0,0,0,2"           
                              Orientation="Horizontal"
@@ -42,7 +42,7 @@
                   <Label Text="{Binding MenuName}"
                          FontSize="Small"
                          VerticalOptions="Center"
-                         TextColor="Black"/>
+                         TextColor="#2f4259"/>
                 </StackLayout></StackLayout>
               </ViewCell>
             </DataTemplate>

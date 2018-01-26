@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Threading.Tasks;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 using xceler.Model;
@@ -23,6 +24,14 @@ namespace xceler.View
 
             navigationDrawerList.ItemsSource = MenuItmeList;
             Detail = new NavigationPage((Page)Activator.CreateInstance(typeof(xcelerPage)));
+        }
+        private async Task OnMenuItemSelectedAsync(object sender, SelectedItemChangedEventArgs e)
+        {
+            var item = (Hamburgermenu)e.SelectedItem;
+            Type page = item.Navigation;
+
+            Detail = new NavigationPage((Page)Activator.CreateInstance(page));
+            IsPresented = false;
         }
     }
 }
