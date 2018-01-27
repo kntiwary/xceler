@@ -1,12 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
-    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:customControls="clr-namespace:xceler.customControls;assembly=xceler" 
     x:Class="xceler.View.ViewLocalDetail">
 	<ContentPage.Content>
         <StackLayout>
-            <ListView>
-                
-            </ListView>
+             <ListView x:Name ="PatientListView" IsVisible="true"
+                    ItemsSource = "{Binding UserList}"
+                    HasUnevenRows = "true">
+
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <customControls:TransparentViewCell >
+                                <Grid  BackgroundColor = "White" Padding = "4"  ColumnSpacing="2" RowSpacing="5" >
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition Height="50"></RowDefinition>
+                                    </Grid.RowDefinitions>
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="*"></ColumnDefinition>
+                                        <ColumnDefinition Width="*"></ColumnDefinition>
+                                        <ColumnDefinition Width="*"></ColumnDefinition>
+                                        <ColumnDefinition Width="*"></ColumnDefinition>
+                                        <ColumnDefinition Width="*"></ColumnDefinition>
+                                        <ColumnDefinition Width="*"></ColumnDefinition>
+                                        <ColumnDefinition Width="*"></ColumnDefinition>
+                                    </Grid.ColumnDefinitions>
+                                    <Label Grid.Column="0" Text = "{Binding FirstName}" VerticalTextAlignment ="Center" TextColor = "Black" FontSize = "Micro" />
+                                    <Label Grid.Column="1" Text  = "{Binding Lastname}" VerticalTextAlignment ="Center" TextColor = "Black" 
+                                        FontSize = "Micro" FontAttributes = "Italic"/>
+                                    <Label Grid.Column="2" Text = "{Binding Dob , StringFormat='{0:MMM d, yyyy }'}" VerticalTextAlignment ="Center"
+                                        TextColor = "Black" FontSize = "Micro"/>
+                                   
+                                    <Label Grid.Column="3" Text  = "{Binding Mobile}" VerticalTextAlignment ="Center" TextColor = "Black" 
+                                        FontSize = "Micro" FontAttributes = "Italic"/>
+                                    <Label Grid.Column="4" Text  = "{Binding Email}" VerticalTextAlignment ="Center" TextColor = "Black" 
+                                        FontSize = "Micro" FontAttributes = "Italic"/>
+                                    <Label Grid.Column="5" Text  = "{Binding Sex}" VerticalTextAlignment ="Center" TextColor = "Black" 
+                                        FontSize = "Micro" FontAttributes = "Italic"/>
+                                <Label Grid.Column="6" Text  = "{Binding Country}" VerticalTextAlignment ="Center" TextColor = "Black" 
+                                        FontSize = "Micro" FontAttributes = "Italic"/>
+
+                                </Grid>
+                             
+                            </customControls:TransparentViewCell>
+                        </DataTemplate>
+
+                            
+                    </ListView.ItemTemplate>
+         </ListView>
         </StackLayout>
 	</ContentPage.Content>
 </ContentPage>

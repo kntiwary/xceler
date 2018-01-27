@@ -42,7 +42,7 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Include="View\MainP.xaml">
+    <EmbeddedResource Include="View\ConformationPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
@@ -76,10 +76,11 @@
     <Compile Include="ViewModel\ViewLocalDetailVeiwModel.cs" />
     <Compile Include="DALSQLite\AppDatabase.cs" />
     <Compile Include="DALSQLite\ISQLite.cs" />
-    <Compile Include="View\MainP.xaml.cs">
-      <DependentUpon>MainP.xaml</DependentUpon>
-    </Compile>
     <Compile Include="ViewModel\MainPageViewModel.cs" />
+    <Compile Include="View\ConformationPage.xaml.cs">
+      <DependentUpon>ConformationPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="customControls\TransparentViewCell.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Xamarin.Forms.Core">
@@ -117,6 +118,7 @@
     <Folder Include="Services\" />
     <Folder Include="WebServ\" />
     <Folder Include="DALSQLite\" />
+    <Folder Include="customControls\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />
   <Import Project="..\packages\Xamarin.Forms.2.4.0.280\build\portable-win+net45+wp80+win81+wpa81\Xamarin.Forms.targets" Condition="Exists('..\packages\Xamarin.Forms.2.4.0.280\build\portable-win+net45+wp80+win81+wpa81\Xamarin.Forms.targets')" />

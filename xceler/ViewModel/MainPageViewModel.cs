@@ -1,5 +1,6 @@
 ﻿using System;
 using System.ComponentModel;
+using System.Threading.Tasks;
 using xceler.Model;
 
 namespace xceler.ViewModel
@@ -36,6 +37,11 @@ namespace xceler.ViewModel
             {
                 PropertyChanged(this, new PropertyChangedEventArgs(propertyName));
             }
+        }
+
+        internal async Task SaveUser(User userdetail)
+        {
+            await App.database.InsertUserDetails(userdetail);
         }
     }
 }

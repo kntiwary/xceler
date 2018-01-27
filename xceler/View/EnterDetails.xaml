@@ -15,29 +15,29 @@
                               TextColor="White" 
                               FontSize="40" />
                 <Entry TextColor="White"  Text="{Binding UserDetails.FirstName}"
-                        PlaceholderColor="{StaticResource primary}"  Placeholder="First Name" 
+                        PlaceholderColor="{StaticResource primary}"  Placeholder="First Name" Keyboard="Text"
                         HorizontalOptions="FillAndExpand"/>
                 <Entry TextColor="White" Text="{Binding UserDetails.Lastname}"
-                        PlaceholderColor="{StaticResource primary}"  Placeholder="Last Name" 
+                        PlaceholderColor="{StaticResource primary}"  Placeholder="Last Name" Keyboard="Text"
                         HorizontalOptions="FillAndExpand"/>
                 <Entry TextColor="White"  Text="{Binding UserDetails.Email}" PlaceholderColor="{StaticResource primary}" 
-                        Placeholder="Email" 
+                        Placeholder="Email" Keyboard="Email"
                         HorizontalOptions="FillAndExpand"/>
                 <Entry TextColor="White"  Text="{Binding UserDetails.Mobile}"
                         PlaceholderColor="{StaticResource primary}"  
-                        Placeholder="Mobile" 
+                        Placeholder="Mobile" Keyboard="Telephone"
                         HorizontalOptions="FillAndExpand"/>
                 
                 <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand">
                          <Label TextColor="{StaticResource primary}" Text="DOB" VerticalTextAlignment="Center"/>
                          <DatePicker x:Name ="Dob"  TextColor="White" DateSelected="Handle_DateSelectedAsync"  />
                          <Label TextColor="{StaticResource primary}" Text="M" VerticalTextAlignment="Center"/>
-                         <Switch x:Name = "gender"/>
+                         <Switch x:Name = "gender"  IsToggled="{Binding IsMale}" />
                           <Label TextColor="{StaticResource primary}" Text="F" VerticalTextAlignment="Center"/>
                     
                     
                 </StackLayout>
-                <Picker x:Name = "Country" Title="Country"  TextColor="{StaticResource primary}"
+                <Picker x:Name = "Country" Title="Country"  TextColor="White" BackgroundColor="{StaticResource primary}"
                          SelectedIndex ="{Binding CountrySelectedIndex}" ItemsSource = "{Binding CountryContent}" ItemDisplayBinding="{Binding Name}"/>
                 
 

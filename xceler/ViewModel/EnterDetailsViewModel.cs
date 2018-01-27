@@ -13,12 +13,14 @@ namespace xceler.ViewModel
     public class EnterDetailsViewModel : INotifyPropertyChanged
     {
         private ObservableCollection<Country> countryContent;
-        private int countrySelectedIndex;
+        private int countrySelectedIndex = 5;
         public string SelectedCountryName { get; set; }
         public Country selectedCountry { get; set; }
         int dateSelectedIndex;
         public DateTime CurrentDate = System.DateTime.Now;
         public ICommand Submit { get; set; }
+        bool isMale = false;
+
        
 
         User userDetails;
@@ -37,7 +39,8 @@ namespace xceler.ViewModel
 
         public async Task<User> OnTappedUser(object obj)
         {
-            await App.database.InsertUserDetails(UserDetails);
+           // await App.database.InsertUserDetails(UserDetails);
+            UserDetails.Sex = (IsMale) ? "Female" : "Male";//If True it's female
             return UserDetails;
         }
 
@@ -89,6 +92,20 @@ namespace xceler.ViewModel
             }
         }
 
+        public bool IsMale
+        {
+            get
+            {
+                return isMale;
+            }
+
+            set
+            {
+                isMale = value;
+                OnPropertyChanged("IsMale");
+                UserDetails.Sex = (IsMale) ? "Female" : "Male";//If True it's female
+            }
+        }
 
         public int DateSelectedIndex
         {

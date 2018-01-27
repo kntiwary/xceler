@@ -34,7 +34,7 @@ namespace xceler.View
                 var vm = BindingContext as EnterDetailsViewModel;
                 User =await vm.OnTappedUser(this);
                
-                await Navigation.PushAsync(new MainP(User));
+                await Navigation.PushAsync(new ConformationPage(User));
             }
             return;
         }

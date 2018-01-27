@@ -21,7 +21,7 @@ namespace xceler.ViewModel
         }
         ObservableCollection<User> userList;
 
-        private ObservableCollection<User> UserList
+        public ObservableCollection<User> UserList
         {
             get
             {

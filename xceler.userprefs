@@ -1,30 +1,37 @@
 ﻿<Properties StartupConfiguration="{32A6C849-DC07-4EB9-89DD-8CF82FF0995E}|Default" NuGet.AddPackagesDialog.IncludePrerelease="True">
-  <MonoDevelop.Ide.Workbench ActiveDocument="xceler/ViewModel/MainPageViewModel.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="xceler/View/ViewLocalDetail.xaml">
     <Files>
       <File FileName="xceler/Services/HamburgermenuItem.cs" Line="27" Column="24" />
       <File FileName="xceler/App.xaml" Line="8" Column="9" />
       <File FileName="xceler/App.xaml.cs" Line="18" Column="42" />
-      <File FileName="xceler/View/EnterDetails.xaml" Line="12" Column="12" />
-      <File FileName="xceler/View/EnterDetails.xaml.cs" Line="32" Column="41" />
-      <File FileName="xceler/ViewModel/EnterDetailsViewModel.cs" Line="39" Column="1" />
-      <File FileName="xceler/View/ViewLocalDetail.xaml" Line="4" Column="5" />
-      <File FileName="xceler/View/ViewLocalDetail.xaml.cs" Line="9" Column="2" />
-      <File FileName="xceler/ViewModel/ViewLocalDetailVeiwModel.cs" Line="20" Column="61" />
-      <File FileName="xceler/xcelerPage.xaml" Line="9" Column="3" />
-      <File FileName="xceler/View/MenuPage.xaml.cs" Line="29" Column="1" />
-      <File FileName="xceler/View/MainPage.xaml" Line="4" Column="34" />
-      <File FileName="xceler/View/MainPage.xaml.cs" Line="1" Column="1" />
-      <File FileName="xceler/ViewModel/MainPageViewModel.cs" Line="6" Column="36" />
+      <File FileName="xceler/View/EnterDetails.xaml" Line="33" Column="88" />
+      <File FileName="xceler/View/EnterDetails.xaml.cs" Line="11" Column="5" />
+      <File FileName="xceler/ViewModel/EnterDetailsViewModel.cs" Line="16" Column="45" />
+      <File FileName="xceler/View/ViewLocalDetail.xaml" Line="37" Column="81" />
+      <File FileName="xceler/View/ViewLocalDetail.xaml.cs" Line="5" Column="26" />
+      <File FileName="xceler/ViewModel/ViewLocalDetailVeiwModel.cs" Line="21" Column="1" />
+      <File FileName="xceler/ViewModel/MainPageViewModel.cs" Line="43" Column="1" />
+      <File FileName="xceler/View/ConformationPage.xaml.cs" Line="16" Column="1" />
+      <File FileName="xceler/View/ConformationPage.xaml" Line="42" Column="71" />
+      <File FileName="xceler/customControls/TransparentViewCell.cs" Line="6" Column="48" />
+      <File FileName="xceler/DALSQLite/AppDatabase.cs" Line="15" Column="1" />
+      <File FileName="../../Coronis/Coronis.Mobile.GP/Coronis.Mobile.GP/View/ReferalHistoryPage.xaml" Line="242" Column="87" />
+      <File FileName="xceler/Model/User.cs" Line="46" Column="26" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="xceler" expanded="True">
             <Node name="xceler" expanded="True">
+              <Node name="customControls" expanded="True" />
               <Node name="DALSQLite" expanded="True" />
-              <Node name="ViewModel" expanded="True">
-                <Node name="MainPageViewModel.cs" selected="True" />
+              <Node name="Model" expanded="True" />
+              <Node name="View" expanded="True">
+                <Node name="EnterDetails.xaml" expanded="True" />
+                <Node name="ViewLocalDetail.xaml" expanded="True" selected="True" />
               </Node>
+              <Node name="ViewModel" expanded="True" />
+              <Node name="App.xaml" expanded="True" />
             </Node>
             <Node name="xceler.Droid" expanded="True" />
           </Node>
@@ -36,8 +43,8 @@
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore>
       <Breakpoint file="/Users/kamta/xceler/xceler/xceler/Services/HamburgermenuItem.cs" relfile="xceler/Services/HamburgermenuItem.cs" line="12" column="1" />
-      <Breakpoint file="/Users/kamta/xceler/xceler/xceler/View/EnterDetails.xaml.cs" relfile="xceler/View/EnterDetails.xaml.cs" line="30" column="1" />
-      <Breakpoint file="/Users/kamta/xceler/xceler/xceler/ViewModel/EnterDetailsViewModel.cs" relfile="xceler/ViewModel/EnterDetailsViewModel.cs" line="39" column="1" />
+      <Breakpoint file="/Users/kamta/xceler/xceler/xceler/View/ConformationPage.xaml.cs" relfile="xceler/View/ConformationPage.xaml.cs" line="36" column="45" />
+      <Breakpoint file="/Users/kamta/xceler/xceler/xceler/ViewModel/MainPageViewModel.cs" relfile="xceler/ViewModel/MainPageViewModel.cs" line="43" column="1" />
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches>
@@ -57,7 +64,7 @@
     <Watch file="../../Backup/Coronis/Coronis.Mobile.Marketing/Coronis.Mobile.Marketing/ViewModel/InsightsViewModel.cs" line="155" offsetX="725" offsetY="2310" expression="Details.Location" liveUpdate="False" />
     <Watch file="../../Backup/Coronis/Coronis.Mobile.Marketing/Coronis.Mobile.Marketing/WebServ/RestService.cs" line="466" offsetX="552" offsetY="6975" expression="uri.AbsoluteUri" liveUpdate="False" />
   </MonoDevelop.Ide.DebuggingService.PinnedWatches>
-  <MonoDevelop.Ide.ItemProperties.xceler.Droid PreferredExecutionTarget="Android.Android_Accelerated_Nougat" />
+  <MonoDevelop.Ide.ItemProperties.xceler.Droid PreferredExecutionTarget="Android.153003717d52" />
   <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.ItemProperties.xceler.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.BB7105A3-7369-4837-AE8F-C2F5E8A0E104">
     <MonoDevelop.MacDev.AppleDevelopmentTeam />

@@ -43,5 +43,6 @@ namespace xceler.Model
             set;
         }
         public String Country { get; set; }
+        public String Sex { get; set; }
     }
 }

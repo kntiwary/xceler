@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+    x:Class="xceler.View.ConformationPage" BackgroundColor="#2f4259">
+    <ContentPage.Resources>
+         <ResourceDictionary>
+            <Color x:Key="primary">#3ec3d5</Color>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+	<ContentPage.Content>
+        <ScrollView>
+           <StackLayout Padding="40" Spacing="10">
+                 <Label  HorizontalOptions="CenterAndExpand" 
+                              Text="Xcelerator" 
+                              TextColor="#3ec3d5" 
+                              FontSize="40" />
+                <StackLayout Orientation="Horizontal">
+                    <Label Text="First Name" TextColor="{StaticResource primary}" HorizontalOptions="FillAndExpand"/>
+                    <Label TextColor="White"  Text="{Binding User.FirstName}" HorizontalOptions="FillAndExpand"/>
+                </StackLayout>
+
+                <StackLayout Orientation="Horizontal">
+                      <Label Text="Last Name" TextColor="{StaticResource primary}" HorizontalOptions="FillAndExpand"/>
+                    <Label TextColor="White" Text="{Binding User.Lastname}" HorizontalOptions="FillAndExpand"/>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal">
+                    <Label Text="Email" TextColor="{StaticResource primary}" HorizontalOptions="FillAndExpand"/>
+                     <Label TextColor="White"  Text="{Binding User.Email}"  HorizontalOptions="FillAndExpand"/>
+                </StackLayout>
+                   
+                <StackLayout Orientation="Horizontal">
+                    <Label Text="Mobile" TextColor="{StaticResource primary}" HorizontalOptions="FillAndExpand"/>
+                     <Label TextColor="White"  Text="{Binding User.Mobile}" HorizontalOptions="FillAndExpand"/>
+                </StackLayout>
+
+                 <StackLayout Orientation="Horizontal">
+                    <Label Text="Country" TextColor="{StaticResource primary}" HorizontalOptions="FillAndExpand"/>
+                     <Label TextColor="White"  Text="{Binding User.Country}" HorizontalOptions="FillAndExpand"/>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal">
+                    <Label Text="Sex" TextColor="{StaticResource primary}" HorizontalOptions="FillAndExpand"/>
+                     <Label TextColor="White"  Text="{Binding User.Sex}" HorizontalOptions="FillAndExpand"/>
+                </StackLayout>
+                 <StackLayout Orientation="Horizontal">
+                    <Label Text="DOB" TextColor="{StaticResource primary}" HorizontalOptions="FillAndExpand"/>
+                     <Label TextColor="White"  Text="{Binding User.Dob}" HorizontalOptions="FillAndExpand"/>
+                </StackLayout>
+
+
+
+
+               
+
+
+                 <Button TextColor="White" 
+                         Text="Confirm"  
+                        Clicked="Handle_Clicked"
+                         BackgroundColor="{StaticResource primary}"
+                         HorizontalOptions="FillAndExpand"/>
+              
+             </StackLayout></ScrollView>
+	</ContentPage.Content>
+</ContentPage>

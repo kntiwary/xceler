@@ -22,8 +22,8 @@ namespace xceler.View
             MenuItmeList = HamburgerService.GetItem();
 
 
-            MessagingCenter.Subscribe<MainP>(this, "MenuDisabled", (sender) => { IsPresented = false; NavigationPage.SetHasNavigationBar(this, false); });
-            MessagingCenter.Subscribe<MainP>(this, "MenuEnabled", (sender) => { IsPresented = false; NavigationPage.SetHasNavigationBar(this, true); });
+            MessagingCenter.Subscribe<ConformationPage>(this, "MenuDisabled", (sender) => { IsPresented = false; NavigationPage.SetHasNavigationBar(this, false); });
+            MessagingCenter.Subscribe<ConformationPage>(this, "MenuEnabled", (sender) => { IsPresented = false; NavigationPage.SetHasNavigationBar(this, true); });
 
             navigationDrawerList.ItemsSource = MenuItmeList;
             Detail = new NavigationPage((Page)Activator.CreateInstance(typeof(xcelerPage)));
