@@ -46,6 +46,10 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
+    <EmbeddedResource Include="View\JsonList.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App.xaml.cs">
@@ -81,6 +85,11 @@
       <DependentUpon>ConformationPage.xaml</DependentUpon>
     </Compile>
     <Compile Include="customControls\TransparentViewCell.cs" />
+    <Compile Include="Model\GP.cs" />
+    <Compile Include="View\JsonList.xaml.cs">
+      <DependentUpon>JsonList.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ViewModel\JsonListViewModel.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Xamarin.Forms.Core">

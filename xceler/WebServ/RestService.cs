@@ -37,6 +37,13 @@ namespace xceler.WebServ
                         return content;
 
                     }
+                    if (serviceName.ToLower() == "gp")
+                    {
+                        //SyncGP(content);
+                        return content;
+
+                    }
+
                     return content;
                    
                 }

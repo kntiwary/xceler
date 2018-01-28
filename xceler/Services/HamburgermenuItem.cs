@@ -22,7 +22,7 @@ namespace xceler.Services
 
                     },
                     new Hamburgermenu{
-                        MenuName = "View Details",
+                        MenuName = "View Local Details",
                         MenuIcon = "historyMenu",
                         Navigation = typeof(ViewLocalDetail)
 
@@ -30,7 +30,7 @@ namespace xceler.Services
                     new Hamburgermenu{
                         MenuName = "Random Json ListView",
                         MenuIcon = "viewMediaMenu",
-                      //  Navigation = typeof(FeedBack)
+                        Navigation = typeof(JsonList)
 
                     }
 

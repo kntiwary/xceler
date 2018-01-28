@@ -29,6 +29,14 @@ namespace xceler.ViewModel
             User = user;
         }
 
+       
+
+        internal async Task SaveUser(User userdetail)
+        {
+            await App.database.InsertUserDetails(userdetail);
+        }
+
+
         public event PropertyChangedEventHandler PropertyChanged;
         protected virtual void OnPropertyChanged(string propertyName)
         {
@@ -37,11 +45,6 @@ namespace xceler.ViewModel
             {
                 PropertyChanged(this, new PropertyChangedEventArgs(propertyName));
             }
-        }
-
-        internal async Task SaveUser(User userdetail)
-        {
-            await App.database.InsertUserDetails(userdetail);
         }
     }
 }
