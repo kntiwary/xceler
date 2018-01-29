@@ -1,39 +1,21 @@
 ﻿<Properties StartupConfiguration="{32A6C849-DC07-4EB9-89DD-8CF82FF0995E}|Default" NuGet.AddPackagesDialog.IncludePrerelease="True">
-  <MonoDevelop.Ide.Workbench ActiveDocument="xceler/View/JsonList.xaml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="xceler/ViewModel/JsonListViewModel.cs">
     <Files>
       <File FileName="xceler/Services/HamburgermenuItem.cs" Line="34" Column="25" />
-      <File FileName="xceler/App.xaml" Line="8" Column="9" />
+      <File FileName="xceler/App.xaml" Line="11" Column="1" />
       <File FileName="xceler/App.xaml.cs" Line="18" Column="42" />
-      <File FileName="xceler/View/EnterDetails.xaml" Line="18" Column="109" />
+      <File FileName="xceler/View/EnterDetails.xaml" Line="63" Column="1" />
       <File FileName="xceler/View/EnterDetails.xaml.cs" Line="11" Column="5" />
       <File FileName="xceler/ViewModel/EnterDetailsViewModel.cs" Line="60" Column="13" />
       <File FileName="xceler/ViewModel/MainPageViewModel.cs" Line="48" Column="10" />
-      <File FileName="xceler/View/JsonList.xaml" Line="8" Column="53" />
+      <File FileName="xceler/View/JsonList.xaml" Line="54" Column="1" />
       <File FileName="xceler/View/JsonList.xaml.cs" Line="17" Column="42" />
-      <File FileName="xceler/ViewModel/JsonListViewModel.cs" Line="22" Column="56" />
+      <File FileName="xceler/ViewModel/JsonListViewModel.cs" Line="9" Column="17" />
+      <File FileName="xceler/Model/GP.cs" Line="12" Column="34" />
       <File FileName="xceler/WebServ/RestService.cs" Line="42" Column="37" />
       <File FileName="xceler/ViewModel/ViewLocalDetailVeiwModel.cs" Line="32" Column="14" />
-      <File FileName="xceler/View/ViewLocalDetail.xaml" Line="51" Column="23" />
-      <File FileName="xceler/Model/GP.cs" Line="22" Column="32" />
+      <File FileName="xceler/View/ViewLocalDetail.xaml" Line="54" Column="1" />
     </Files>
-    <Pads>
-      <Pad Id="ProjectPad">
-        <State name="__root__">
-          <Node name="xceler" expanded="True">
-            <Node name="xceler" expanded="True">
-              <Node name="Model" expanded="True">
-                <Node name="GP.cs" selected="True" />
-              </Node>
-              <Node name="View" expanded="True">
-                <Node name="JsonList.xaml" expanded="True" />
-              </Node>
-              <Node name="ViewModel" expanded="True" />
-            </Node>
-            <Node name="xceler.Droid" expanded="True" />
-          </Node>
-        </State>
-      </Pad>
-    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
@@ -62,7 +44,7 @@
     <Watch file="../../Backup/Coronis/Coronis.Mobile.Marketing/Coronis.Mobile.Marketing/ViewModel/InsightsViewModel.cs" line="155" offsetX="725" offsetY="2310" expression="Details.Location" liveUpdate="False" />
     <Watch file="../../Backup/Coronis/Coronis.Mobile.Marketing/Coronis.Mobile.Marketing/WebServ/RestService.cs" line="466" offsetX="552" offsetY="6975" expression="uri.AbsoluteUri" liveUpdate="False" />
   </MonoDevelop.Ide.DebuggingService.PinnedWatches>
-  <MonoDevelop.Ide.ItemProperties.xceler.Droid PreferredExecutionTarget="Android.153003717d52" />
+  <MonoDevelop.Ide.ItemProperties.xceler.Droid PreferredExecutionTarget="Android.Android_Accelerated_Nougat" />
   <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.ItemProperties.xceler.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.BB7105A3-7369-4837-AE8F-C2F5E8A0E104">
     <MonoDevelop.MacDev.AppleDevelopmentTeam />
