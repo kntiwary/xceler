@@ -1,7 +1,7 @@
 ﻿<Properties StartupConfiguration="{32A6C849-DC07-4EB9-89DD-8CF82FF0995E}|Default" NuGet.AddPackagesDialog.IncludePrerelease="True">
-  <MonoDevelop.Ide.Workbench ActiveDocument="xceler/ViewModel/JsonListViewModel.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="iOS/TransparentViewCellRenderer.cs">
     <Files>
-      <File FileName="xceler/Services/HamburgermenuItem.cs" Line="34" Column="25" />
+      <File FileName="xceler/Services/HamburgermenuItem.cs" Line="32" Column="52" />
       <File FileName="xceler/App.xaml" Line="11" Column="1" />
       <File FileName="xceler/App.xaml.cs" Line="18" Column="42" />
       <File FileName="xceler/View/EnterDetails.xaml" Line="63" Column="1" />
@@ -15,6 +15,8 @@
       <File FileName="xceler/WebServ/RestService.cs" Line="42" Column="37" />
       <File FileName="xceler/ViewModel/ViewLocalDetailVeiwModel.cs" Line="32" Column="14" />
       <File FileName="xceler/View/ViewLocalDetail.xaml" Line="54" Column="1" />
+      <File FileName="Droid/TransparentViewCellRenderer.cs" Line="12" Column="64" />
+      <File FileName="iOS/TransparentViewCellRenderer.cs" Line="9" Column="6" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
